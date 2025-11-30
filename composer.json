@@ -1,0 +1,29 @@
+{
+    "name": "testflowlabs/pest-test-attributes",
+    "description": "PHP 8 attributes for Pest PHP testing - BDD steps and coverage linking",
+    "keywords": [
+        "pest",
+        "testing",
+        "attributes",
+        "bdd",
+        "gherkin",
+        "coverage"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "TestFlowLabs",
+            "email": "info@testflowlabs.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestFlowLabs\\PestTestAttributes\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
