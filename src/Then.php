@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace TestFlowLabs\PestTestAttributes;
+namespace TestFlowLabs\TestingAttributes;
 
 use Attribute;
 
