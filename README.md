@@ -17,11 +17,11 @@ composer require testflowlabs/test-attributes
 
 | Attribute | Target | Purpose | Used By |
 |-----------|--------|---------|---------|
-| `#[Given]` | Method/Function | BDD step - Arrange | `pest-plugin-bdd` |
-| `#[When]` | Method/Function | BDD step - Act | `pest-plugin-bdd` |
-| `#[Then]` | Method/Function | BDD step - Assert | `pest-plugin-bdd` |
-| `#[Links]` | Method | Link test to production code (traceability only) | `pest-plugin-test-link` |
-| `#[LinksAndCovers]` | Method | Link test to production code + coverage | `pest-plugin-test-link` |
+| `#[Given]` | Method/Function | BDD step - Arrange | `testflowlabs/pest-plugin-bdd` |
+| `#[When]` | Method/Function | BDD step - Act | `testflowlabs/pest-plugin-bdd` |
+| `#[Then]` | Method/Function | BDD step - Assert | `testflowlabs/pest-plugin-bdd` |
+| `#[Links]` | Method | Link test to production code (traceability only) | `testflowlabs/test-link` |
+| `#[LinksAndCovers]` | Method | Link test to production code + coverage | `testflowlabs/test-link` |
 
 All attributes are repeatable.
 
@@ -35,8 +35,8 @@ This package is a **production** dependency, while testing plugins remain **dev*
         "testflowlabs/test-attributes": "^1.0"
     },
     "require-dev": {
-        "testflowlabs/pest-plugin-bdd": "^1.0",
-        "testflowlabs/pest-plugin-test-link": "^1.0"
+        "testflowlabs/pest-plugin-bdd": "^0.1",
+        "testflowlabs/test-link": "^0.1"
     }
 }
 ```
