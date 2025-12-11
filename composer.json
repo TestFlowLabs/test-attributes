@@ -3,11 +3,12 @@
     "description": "PHP 8 attributes for testing - BDD steps and test traceability",
     "keywords": [
         "php",
-        "testing",
         "attributes",
         "bdd",
         "traceability",
-        "coverage"
+        "coverage",
+        "test-attributes",
+        "test-metadata"
     ],
     "license": "MIT",
     "authors": [
