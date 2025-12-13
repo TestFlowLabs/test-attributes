@@ -13,8 +13,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "TestFlowLabs",
-            "email": "info@testflowlabs.com"
+            "name": "Yunus Emre Deligöz",
+            "email": "ye@deligoz.me"
         }
     ],
     "require": {
